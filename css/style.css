@@ -102,6 +102,25 @@ body {
 
 .hasil-karya h2 {
     text-align: center;
+    padding-bottom: 2rem;
+}
+
+.hasil-karya .karya {
+    display: flex;
+}
+
+.hasil-karya .karya .card {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.hasil-karya .tombol-lainnya {
+    background-color: #eeee21;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 7%;
 }
 
 /* Kontak */
@@ -163,7 +182,8 @@ body {
     }
     #hamburger-menu {
         display: inline-block;
-        }
+    }
+
     .navbar .navbar-nav {
         position: absolute;
         top: 100%;
@@ -173,10 +193,12 @@ body {
         background-color: var(--primary);
         transition: 0.5s;
     }
+
     .navbar .navbar-nav.active{
         right: 0;
-
     }
+
+
     .navbar .navbar-nav a {
         display: block;
         margin: 1.5rem;
@@ -185,6 +207,14 @@ body {
 
     .about .isi img {
         width: 50%;
+    }
+
+    .hasil-karya .karya {
+        display: inline;
+    }
+
+    .hasil-karya .karya .card img {
+        width: 45%;
     }
 }
     
@@ -195,6 +225,10 @@ body {
         font-size: 50%;
     }
     .about .isi img {
+        width: 35%;
+    }
+
+    .hasil-karya .karya .card img {
         width: 35%;
     }
 }
