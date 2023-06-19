@@ -171,14 +171,14 @@ body {
 /* media queries */
 @media (max-width: 1008px) {
     html {
-        font-size: 75%;
+        font-size: 90%;
     }
 }
 
 /* Tablet */
 @media (max-width: 750px) {
     html{
-        font-size: 60%;
+        font-size: 80%;
     }
     #hamburger-menu {
         display: inline-block;
@@ -222,13 +222,17 @@ body {
 /* HP */
 @media (max-width: 450px) {
     html{
-        font-size: 50%;
-    }
-    .about .isi img {
-        width: 35%;
+        font-size: 75%;
     }
 
+    .about .isi img {
+        display: none;
+    }
+
+    .about .isi p {
+        text-align: center;
+    }
     .hasil-karya .karya .card img {
-        width: 35%;
+        width: 70%;
     }
 }
