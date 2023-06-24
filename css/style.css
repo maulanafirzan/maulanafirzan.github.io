@@ -225,8 +225,14 @@ body {
         font-size: 75%;
     }
 
+    .about .isi {
+        flex-wrap: wrap;
+    }
+
     .about .isi img {
-        display: none;
+        width: 100%;
+        height: 100%;
+        margin: 1rem;
     }
 
     .about .isi p {
